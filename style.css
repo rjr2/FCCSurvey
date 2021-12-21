@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    background-color: darkgray;
+}
+
+main {
+    background: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#question {
+    display: block;
+}

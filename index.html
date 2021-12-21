@@ -6,14 +6,14 @@
     <title>Offroading Survey</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
       <h1 id="title">Offroading Survey</h1>
       <p id="description">What is are your Offroading preferenes?</p>
       <form id="survey-form">
-        <div>
+        <div class="question">
           <label for="name" id="name-label">Enter your name:</label>
           <input
             type="text"
@@ -23,7 +23,7 @@
             required
           />
         </div>
-        <div>
+        <div class="question">
           <label for="email" id="email-label">Enter your email:</label>
           <input
             type="email"
@@ -33,7 +33,7 @@
             required
           />
         </div>
-        <div>
+        <div class="question">
           <label for="experience" id="number-label"
             >Years of Offroading experience?</label
           >
@@ -46,7 +46,7 @@
             placeholder="Years experience"
           />
         </div>
-        <div>
+        <div class="question">
           <label for="brand"
             >What popular truck manufacturer do you prefer?</label
           >
@@ -58,7 +58,7 @@
             <option value="mercedes">Mercedes</option>
           </select>
         </div>
-        <div>
+        <div class="question">
           <p>Do you enjoy Camping?</p>
           <input type="radio" name="camping" value="yes">
           <label for="yes">Yes</label>
@@ -67,7 +67,7 @@
           <input type="radio" name="camping" value="in-different">
           <label for="in-different">I could take it or leave it</label>
         </div>
-        <div>
+        <div class="question">
             <p>Which offroad activities do you enjoy?</p>
             <input type="checkbox" name="activity1" value="rockCrawling">
             <label for="activity1">Rock Crawling</label>
@@ -76,7 +76,7 @@
             <input type="checkbox" name="activity3" value="overlanding">
             <label for="activity3">Overlanding</label>
         </div>
-        <div>
+        <div class="question">
             <label for="additional">Please enter any other offroading related comments.</label>
             <textarea id="additional" name="additional"></textarea>
         </div>
